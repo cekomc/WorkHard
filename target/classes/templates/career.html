@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="busines-fragments/header"></th:block>
+</head>
+<body>
+<div class="container-fluid">
+    <th:block th:replace="fragments/navbar"></th:block>
+</div>
+<div class="container" style="display: inline-block">
+    <div class="box">
+        <img class="img-responsive" src="/img/job.jpg" alt="Job" width="561" height="404">
+    </div>
+    <div class="box-text">
+        <h1>Join our team and lead us forward</h1>
+        <br/>
+        <h4>We have free places for:</h4>
+        <br>
+        <div id="navigation" style="align-content: center">
+            <tr style="margin-bottom: 5px">
+                <th style="margin-bottom: 2px"><a style="margin-bottom: 2px" href="/javaDevTag" class="myCareerTags">Java Developer</a></th>
+            </tr>
+            <tr style="margin-bottom: 5px">
+                <th style="margin-bottom: 2px"><a style="margin-bottom: 2px" href="/htmlCssBootstrapTag" class="myCareerTags">HTML CSS Bootstrap</a></th>
+            </tr>
+            <tr style="margin-bottom: 5px">
+                <th style="margin-bottom: 2px"><a style="margin-bottom: 2px" href="/javaScriptTag" class="myCareerTags">JS Developer</a></th>
+            </tr>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+</body>
+<footer>
+    <hr/>
+    <div>
+        <th:block th:replace="fragments/footer"></th:block>
+    </div>
+</footer>
+</html>

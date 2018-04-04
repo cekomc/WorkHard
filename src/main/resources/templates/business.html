@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="busines-fragments/header"></th:block>
+</head>
+<body background="/img/business.jpg">
+<div class="container-fluid">
+    <th:block th:replace="busines-fragments/navbar"></th:block>
+    <hr/>
+</div>
+<div class="control-group">
+    <div class="controls" id="play_button">
+        <a href="/business-register" class="myButton">Register</a>
+    </div>
+</div>
+</body>
+<footer>
+    <hr/>
+    <div style="">
+        <th:block th:replace="busines-fragments/footer"></th:block>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,32 @@
+<th:block th:fragment="head" xmlns:th="http://www.w3.org/1999/xhtml">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WorkHard</title>
+    <style>
+
+        .box {
+            float: left;
+            width: 200px;
+            height: 100px;
+            margin-left: 100px;
+        }
+
+        .box-text{
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin-left: 500px;
+            text-align: center;
+        }
+        .after-box {
+            clear: left;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js}"></script>
+    <script th:src="@{https://code.jquery.com/jquery-3.3.1.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+</th:block>
