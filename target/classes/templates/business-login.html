@@ -4,23 +4,17 @@
 <head>
     <th:block th:replace="busines-fragments/header"></th:block>
 </head>
-<body background="/img/javaTag.jpg">
+<body background="/img/business-login.jpg">
 <div class="container-fluid">
     <th:block th:replace="busines-fragments/navbar"></th:block>
-    <hr/>
-</div>
-<div class="control-group">
-    <div class="controls" id="apply_now">
-        <a href="/worker-register" class="myButton">Apply now</a>
-    </div>
-</div>
 
-
+</div>
+<th:block th:replace="fragments/business-login"></th:block>
 </body>
 <footer>
     <hr/>
     <div style="">
-        <th:block th:replace="busines-fragments/footer"></th:block>
+        <th:block th:replace="fragments/footer"></th:block>
     </div>
 </footer>
 </html>

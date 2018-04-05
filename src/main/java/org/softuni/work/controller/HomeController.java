@@ -32,4 +32,14 @@ public class HomeController {
     public ModelAndView javaDevTag(){
         return new ModelAndView("javaDevTag");
     }
+
+    @GetMapping("/business-register")
+    public ModelAndView businessRegister(){
+        return new ModelAndView("business-register");
+    }
+
+    @GetMapping("/business-login")
+    public ModelAndView businessLogin(){
+        return new ModelAndView("business-login");
+    }
 }
