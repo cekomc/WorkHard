@@ -42,4 +42,14 @@ public class HomeController {
     public ModelAndView businessLogin(){
         return new ModelAndView("business-login");
     }
+
+    @GetMapping("/career-register")
+        public ModelAndView careerRegister(){
+            return new ModelAndView("career-register");
+    }
+
+    @GetMapping("/career-login")
+    public ModelAndView careerLogin(){
+        return new ModelAndView("career-login");
+    }
 }
