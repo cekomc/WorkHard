@@ -52,4 +52,15 @@ public class HomeController {
     public ModelAndView careerLogin(){
         return new ModelAndView("career-login");
     }
+
+    @GetMapping("/business-home")
+    public ModelAndView businessHome(){
+        return new ModelAndView("business-home");
+    }
+
+
+    @GetMapping("/business-create-app")
+    public ModelAndView businessCreteApp(){
+        return new ModelAndView("business-create-app");
+    }
 }
