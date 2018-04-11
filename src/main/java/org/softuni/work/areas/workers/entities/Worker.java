@@ -1,0 +1,109 @@
+package org.softuni.work.areas.workers.entities;
+
+import org.hibernate.annotations.GenericGenerator;
+import org.softuni.work.areas.jobs.entities.Job;
+import org.softuni.work.areas.projects.entities.Project;
+
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+public class Worker {
+    @Id
+    @GeneratedValue(generator = "UUID")
+    @GenericGenerator(
+            name = "UUID",
+            strategy = "org.hibernate.id.UUIDGenerator"
+    )
+    @Column(name = "id", updatable = false, nullable = false)
+    private String id;
+
+    private String fullName;
+
+    private String password;
+
+    private String email;
+
+    private String cv;
+
+    @ManyToMany(cascade =
+            {CascadeType.PERSIST, CascadeType.MERGE})
+    @JoinTable(name = "worker_project",
+            joinColumns = {
+                    @JoinColumn(
+                            name = "worker_id",
+                            referencedColumnName = "id"
+                    )
+            },
+            inverseJoinColumns = {
+                    @JoinColumn(
+                            name = "project_id",
+                            referencedColumnName = "id"
+                    )
+            }
+    )
+    private List<Project> projectList;
+
+    @ManyToOne
+    @JoinColumn(name = "job_id")
+    private Job job;
+
+    public Worker() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getCv() {
+        return cv;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setCv(String cv) {
+        this.cv = cv;
+    }
+
+    public List<Project> getProjectList() {
+        return projectList;
+    }
+
+    public void setProjectList(List<Project> projectList) {
+        this.projectList = projectList;
+    }
+
+    public Job getJob() {
+        return job;
+    }
+
+    public void setJob(Job job) {
+        this.job = job;
+    }
+}

@@ -1,6 +1,5 @@
-package org.softuni.work.controller;
+package org.softuni.work.homeController;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -31,26 +30,6 @@ public class HomeController {
     @GetMapping("/javaDevTag")
     public ModelAndView javaDevTag(){
         return new ModelAndView("javaDevTag");
-    }
-
-    @GetMapping("/business-register")
-    public ModelAndView businessRegister(){
-        return new ModelAndView("business-register");
-    }
-
-    @GetMapping("/business-login")
-    public ModelAndView businessLogin(){
-        return new ModelAndView("business-login");
-    }
-
-    @GetMapping("/career-register")
-        public ModelAndView careerRegister(){
-            return new ModelAndView("career-register");
-    }
-
-    @GetMapping("/career-login")
-    public ModelAndView careerLogin(){
-        return new ModelAndView("career-login");
     }
 
     @GetMapping("/business-home")
