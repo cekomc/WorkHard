@@ -37,12 +37,6 @@ public class HomeController {
         return new ModelAndView("business-home");
     }
 
-
-    @GetMapping("/business-create-app")
-    public ModelAndView businessCreteApp(){
-        return new ModelAndView("business-create-app");
-    }
-
     @GetMapping("/career-home")
     public ModelAndView careerHome(){
         return new ModelAndView("career-home");
