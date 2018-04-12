@@ -5,6 +5,7 @@ import org.softuni.work.areas.businesPartners.entities.BusinessPartner;
 import org.softuni.work.areas.workers.entities.Worker;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @Entity
@@ -18,8 +19,10 @@ public class Project {
     @Column(name = "id", updatable = false, nullable = false)
     private String id;
 
+    @NotNull(message = "Project name cannot be null!")
     private String name;
 
+    @NotNull(message = "Description cannot be null!")
     private String description;
 
     private boolean isAssigned;

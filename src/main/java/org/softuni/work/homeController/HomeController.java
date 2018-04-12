@@ -96,4 +96,10 @@ public class HomeController {
     public ModelAndView projectManagerEditProject(){
         return new ModelAndView("project-manager-edit-project");
     }
+
+    @GetMapping("/showForm")
+    public ModelAndView formShow(){
+        return new ModelAndView("virus-form");
+    }
+
 }

@@ -1,51 +1,72 @@
-<div class="container-fluid">
+<div class="container-fluid" xmlns:th="http://www.w3.org/1999/xhtml">
     <div class="row justify-content-left">
         <div class="form-holder text-center">
-            <form class="form-inline" action="/business-register" method="POST">
+            <form class="form-inline" action="/business-register" method="POST" th:object="${businessPartnerInput}">
                 <fieldset>
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="firstName">First Name</label>
                         <div class="controls">
-                            <input type="text" id="firstName" name="firstName" placeholder="" class="input-xlarge">
+                            <input type="text" th:field="*{firstName}" th:value="${businessPartnerInput.getFirstName()}"
+                                   id="firstName" name="firstName" placeholder="" class="input-xlarge">
+                            <div class="error">
+                                <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">
+                                </td>
+                            </div>
+
                         </div>
                     </div>
                     <br/>
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="lastName">Last Name</label>
                         <div class="controls">
-                            <input type="password" id="lastName" name="lastName" placeholder=""
+                            <input type="text"  th:field="*{lastName}" th:value="${businessPartnerInput.getLastName()}" id="lastName" name="lastName" placeholder=""
                                    class="input-xlarge">
+                        </div>
+                        <div class="error">
+                            <td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">
+                            </td>
                         </div>
                     </div>
                     <br/>
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="email">Email</label>
                         <div class="controls">
-                            <input type="text" id="email" name="email" placeholder=""
+                            <input type="text"  th:field="*{email}" th:value="${businessPartnerInput.getEmail()}" id="email" name="email" placeholder=""
                                    class="input-xlarge">
+                        </div>
+                        <div class="error">
+                            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">
+                            </td>
                         </div>
                     </div>
                     <br/>
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="password">Password</label>
                         <div class="controls">
-                            <input type="password" id="password" name="password" placeholder=""
+                            <input type="password"  th:field="*{password}" th:value="${businessPartnerInput.getPassword()}" id="password" name="password" placeholder=""
                                    class="input-xlarge">
+                        </div>
+                        <div class="error">
+                            <td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">
+                            </td>
                         </div>
                     </div>
                     <br/>
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="companyName">Company Name</label>
                         <div class="controls">
-                            <input type="text" id="companyName" name="companyName" placeholder=""
+                            <input type="text"  th:field="*{companyName}" th:value="${businessPartnerInput.getCompanyName()}" id="companyName" name="companyName" placeholder=""
                                    class="input-xlarge">
+                        </div>
+                        <div class="error">
+                            <td  th:if="${#fields.hasErrors('companyName')}" th:errors="*{companyName}" th:class="'error'"></td>                            </td>
                         </div>
                     </div>
                     <br/>
                     <div class="control-group">
                         <div class="controls">
                             <button class="btn btn-info">Register</button>
-                             <p>Already have an account?  <a href="/business-login"> Log in</a> </p>
+                            <p>Already have an account? <a href="/business-login"> Log in</a></p>
 
                         </div>
                     </div>
