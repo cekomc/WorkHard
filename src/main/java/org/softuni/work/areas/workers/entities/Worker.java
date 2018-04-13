@@ -5,16 +5,19 @@ import org.hibernate.validator.constraints.Email;
 import org.softuni.work.areas.jobs.entities.Job;
 import org.softuni.work.areas.projects.entities.Project;
 import org.softuni.work.areas.roles.entities.Role;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
+import java.util.Collection;
 import java.util.List;
 
 @Entity
-public class Worker {
+public class Worker implements UserDetails {
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
@@ -68,6 +71,33 @@ public class Worker {
     public Worker() {
     }
 
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return this.roles;
+    }
+
+
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
+
     public String getId() {
         return id;
     }
@@ -86,6 +116,11 @@ public class Worker {
 
     public String getPassword() {
         return password;
+    }
+
+    @Override
+    public String getUsername() {
+        return null;
     }
 
     public void setPassword(String password) {
