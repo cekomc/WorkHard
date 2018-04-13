@@ -28,6 +28,8 @@ public class BusinessAccountController {
     public ModelAndView businessLogin(Model model) {
         if (!model.containsAttribute("businessPartnerInput"))
             model.addAttribute("businessPartnerInput", new BusinessPartnerLoginBindingModel());
+        if (!model.containsAttribute("errorMsg"))
+            model.addAttribute("errorMsg", "");
         return new ModelAndView("business-login");
     }
 

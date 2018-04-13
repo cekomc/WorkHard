@@ -24,17 +24,16 @@ public class Worker {
     @Column(name = "id", updatable = false, nullable = false)
     private String id;
 
-    @NotNull(message = "Name cannot be null")
+    @Column(nullable = false)
     private String fullName;
 
-    @NotNull
-    @Min(value = 8, message = "Password should not be lass than 8 symbols")
+    @Column(nullable = false)
     private String password;
 
-    @Email( message = "Not a valid email")
+    @Column(nullable = false)
     private String email;
 
-    @NotNull(message = "Cv cannot be empty")
+    @Column(nullable = false)
     private String cv;
 
     @ManyToMany(cascade =

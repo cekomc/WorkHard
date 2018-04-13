@@ -3,36 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="ba41a032-0c57-41c5-bc7f-a35ff3187e5e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WorkHard.iml" afterPath="$PROJECT_DIR$/WorkHard.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerLoginBindingModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerLoginBindingModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/entities/Project.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/entities/Project.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/entities/Role.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/entities/Role.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business-register.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/business-register.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/career-my-profile.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/career-my-profile.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/business-login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/business-login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business-login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/business-login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/career-register.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/career-register.html" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/career-register.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/career-register.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/entities/BusinessPartner.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/entities/BusinessPartner.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/projects/entities/Project.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/projects/entities/Project.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/roles/entities/Role.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/roles/entities/Role.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/controllers/WorkerAccountController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/controllers/WorkerAccountController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/entities/Worker.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/entities/Worker.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/config/ApplicationBeanConfig.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/config/ApplicationBeanConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/homeController/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/homeController/HomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/busines-fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/busines-fragments/header.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/business-register.html" afterPath="$PROJECT_DIR$/target/classes/templates/business-register.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/career-my-profile.html" afterPath="$PROJECT_DIR$/target/classes/templates/career-my-profile.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/business-login.html" afterPath="$PROJECT_DIR$/target/classes/templates/business-login.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/career-register.html" afterPath="$PROJECT_DIR$/target/classes/templates/career-register.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/business-login.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/business-login.html" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/business-register.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/business-register.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/career-register.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/career-register.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,102 +51,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="95" column="52" lean-forward="true" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1836#1837#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-                <element signature="e#2047#2048#0" expanded="true" />
-                <element signature="e#2152#2153#0" expanded="true" />
-                <element signature="e#2224#2225#0" expanded="true" />
-                <element signature="e#2318#2319#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-                <element signature="e#2485#2486#0" expanded="true" />
-                <element signature="e#2555#2556#0" expanded="true" />
-                <element signature="e#2729#2730#0" expanded="true" />
-                <element signature="e#2795#2796#0" expanded="true" />
-                <element signature="e#2848#2849#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessPartnerRegisterBindingModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessAccountController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BusinessAccountController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="362">
+              <caret line="60" column="28" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="60" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/entities/Project.java">
+      <file leaf-file-name="business-register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessPartnerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java">
+      <file leaf-file-name="WorkerAccountController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="always-bot-footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/busines-fragments/always-bot-footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -161,8 +84,8 @@
       <file leaf-file-name="business-register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -171,8 +94,28 @@
       <file leaf-file-name="business-login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/business-login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="112" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="business-login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="career-login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -181,29 +124,29 @@
       <file leaf-file-name="BusinessPartnerServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="437">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessPartnerLoginBindingModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerLoginBindingModel.java">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-              </folding>
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkerLoginBindingModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -230,11 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/templates/loged-in-worker-fragments/navbar.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/loged-as-admin-fragments/navbar.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/loged-as-admin-fragments/black-navbar.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-list-projects.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-edit-worker.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-edit-project.html" />
@@ -244,16 +182,11 @@
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/CareerRegisterBindingModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/config/BCryptPasswordEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/config/ApplicationBeanConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/career-register.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/career-login.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinesPartnerService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/repositories/WorkerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/repositories/BusinessPartnerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/AccountController.java" />
@@ -266,21 +199,31 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/entities/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/career-my-profile.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/entities/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/footer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/always-bot-footer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/business-register.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerLoginBindingModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/business-login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/career-register.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/career-register-footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/career-register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/business-login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html" />
       </list>
     </option>
   </component>
@@ -303,7 +246,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -328,9 +271,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -430,6 +370,19 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="areas" type="462c0819:PsiDirectoryNode" />
               <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="softuni" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="areas" type="462c0819:PsiDirectoryNode" />
+              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -469,34 +422,59 @@
               <item name="softuni" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="softuni" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="areas" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="softuni" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="areas" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="softuni" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="areas" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="softuni" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="areas" type="462c0819:PsiDirectoryNode" />
+              <item name="workers" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
@@ -509,19 +487,8 @@
               <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="areas" type="462c0819:PsiDirectoryNode" />
               <item name="workers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="clasess" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
@@ -582,6 +549,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -747,14 +717,15 @@
       <workItem from="1523353214205" duration="8815000" />
       <workItem from="1523448094655" duration="11441000" />
       <workItem from="1523533251816" duration="23445000" />
+      <workItem from="1523617347597" duration="8479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107808000" />
+    <option name="totallyTimeSpent" value="116287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -773,11 +744,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70888156" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.70888156" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.5065789" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -808,7 +779,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java</url>
-          <line>58</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -822,27 +793,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/loged-as-admin-fragments/black-navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-list-projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -898,63 +848,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/BCryptPasswordEncoder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/career-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#282#283#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-            <element signature="e#503#504#0" expanded="false" />
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#691#692#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#781#782#0" expanded="false" />
-            <element signature="e#809#810#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-245">
           <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -975,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/repositories/BusinessPartnerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -992,26 +883,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#797#798#0" expanded="false" />
-            <element signature="e#847#848#0" expanded="false" />
-            <element signature="e#921#922#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1428#1429#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,11 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,9 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,15 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#292#293#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#362#363#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#496#497#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1065,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="15" column="81" lean-forward="false" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,47 +934,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/entities/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/virus-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/virus-form.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,15 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1141,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,15 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/busines-fragments/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,15 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,105 +981,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerLoginBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="21" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/busines-fragments/always-bot-footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="95" column="52" lean-forward="true" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
+        <state relative-caret-position="1298">
+          <caret line="95" column="52" lean-forward="false" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-            <element signature="e#2047#2048#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
-            <element signature="e#2555#2556#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
-            <element signature="e#2795#2796#0" expanded="true" />
-            <element signature="e#2848#2849#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#300#301#0" expanded="false" />
+            <element signature="e#347#348#0" expanded="false" />
+            <element signature="e#412#413#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#945#946#0" expanded="false" />
+            <element signature="e#1016#1017#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1295#1296#0" expanded="false" />
+            <element signature="e#1356#1357#0" expanded="false" />
+            <element signature="e#1425#1426#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+            <element signature="e#1553#1554#0" expanded="false" />
+            <element signature="e#1609#1610#0" expanded="false" />
+            <element signature="e#1693#1694#0" expanded="false" />
+            <element signature="e#1754#1755#0" expanded="false" />
+            <element signature="e#1836#1837#0" expanded="false" />
+            <element signature="e#1896#1897#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
+            <element signature="e#2047#2048#0" expanded="false" />
+            <element signature="e#2152#2153#0" expanded="false" />
+            <element signature="e#2224#2225#0" expanded="false" />
+            <element signature="e#2318#2319#0" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2485#2486#0" expanded="false" />
+            <element signature="e#2555#2556#0" expanded="false" />
+            <element signature="e#2729#2730#0" expanded="false" />
+            <element signature="e#2795#2796#0" expanded="false" />
+            <element signature="e#2848#2849#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1292,34 +1039,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/entities/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/business-login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/busines-fragments/always-bot-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/busines-fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#122#128#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/career-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="57" column="54" lean-forward="false" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#4;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/career-register-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#259#265#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#footer#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerLoginBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/models/BusinessPartnerRegisterBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/business-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="362">
+          <caret line="60" column="28" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="60" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/business-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/career-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding />
         </state>
       </provider>

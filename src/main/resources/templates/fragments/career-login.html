@@ -1,7 +1,7 @@
-<div class="container-fluid">
+<div class="container-fluid" xmlns:th="http://www.w3.org/1999/xhtml">
     <div class="row justify-content-center">
         <div class="form-holder text-center">
-            <form class="form-inline" action="/career-login" method="POST">
+            <form class="form-inline" action="/career-login" method="POST" th:object="${workerInput}">
                 <fieldset>
                     <br/>
                     <br/>
@@ -9,15 +9,23 @@
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="email">Email</label>
                         <div class="controls">
-                            <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+                            <input type="text" th:field="*{email}" th:value="${workerInput.getEmail()}" id="email" name="email" placeholder="" class="input-xlarge">
+                            <div class="error">
+                                <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">
+                                </td>
+                            </div>
                         </div>
                     </div>
                     <br/>
                     <div class="control-group">
                         <label class="control-label h3 mb-2" for="password">Password</label>
                         <div class="controls">
-                            <input type="password" id="password" name="password" placeholder=""
+                            <input type="password" th:field="*{password}" th:value="${workerInput.getPassword()}" id="password" name="password" placeholder=""
                                    class="input-xlarge">
+                            <div class="error">
+                                <td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">
+                                </td>
+                            </div>
                         </div>
                     </div>
                     <br/>

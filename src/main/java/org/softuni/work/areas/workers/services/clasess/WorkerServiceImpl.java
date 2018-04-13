@@ -42,7 +42,7 @@ public class WorkerServiceImpl implements WorkerService{
        Worker check = this.workerRepository.findFirstByEmail(bindingModel.getEmail());
        if(check==null){
            throw new Exception("Email not found");
-       }else if(!check.getPassword().equals(bindingModel.getPassword())){
+       }else if(!bCryptPasswordEncoder.matches(bindingModel.getPassword(), check.getPassword())){
            throw new Exception("Password not found");
        }
 

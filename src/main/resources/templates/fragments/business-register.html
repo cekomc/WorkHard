@@ -11,6 +11,8 @@
                             <div class="error">
                                 <td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">
                                 </td>
+                                <td th:text="${errorMsg}">
+                                </td>
                             </div>
 
                         </div>
