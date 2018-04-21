@@ -27,15 +27,34 @@ public class Project {
 
     private boolean isAssigned;
 
+    private String link;
+
     @ManyToOne
-    @JoinColumn(name="business_partner_id")
+    @JoinTable(
+            name="projects_business",
+            joinColumns = @JoinColumn( name="project_id"),
+            inverseJoinColumns = @JoinColumn( name="business_partner_id")
+
+    )
     private BusinessPartner businessPartner;
 
-    @ManyToMany(mappedBy = "projectList",
-            cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "projects_workers",
+            joinColumns = @JoinColumn(name = "project_id"),
+            inverseJoinColumns = @JoinColumn(name = "worker_id"))
     private List<Worker> workerList;
 
     public Project() {
+    }
+
+    public List<Worker> getWorkerList() {
+        return workerList;
+    }
+
+    public void setWorkerList(List<Worker> workerList) {
+        this.workerList = workerList;
     }
 
     public BusinessPartner getBusinessPartner() {
@@ -78,11 +97,11 @@ public class Project {
         isAssigned = assigned;
     }
 
-    public List<Worker> getWorkerList() {
-        return workerList;
+    public String getLink() {
+        return link;
     }
 
-    public void setWorkerList(List<Worker> workerList) {
-        this.workerList = workerList;
+    public void setLink(String link) {
+        this.link = link;
     }
 }

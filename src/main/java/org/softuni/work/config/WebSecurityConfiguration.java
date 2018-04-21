@@ -1,21 +1,36 @@
 package org.softuni.work.config;
 
 import org.softuni.work.areas.workers.services.interfaces.WorkerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import static org.hibernate.criterion.Restrictions.and;
+
+@Configuration
 @EnableWebSecurity
+@Order(0)
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     private final WorkerService workerService;
 
-    private final BCryptPasswordEncoder bCryptPasswordEncoder;
+    private static final String[] routes = {"/", "/about-us", "/business", "/career",
+                    "/career-register",  "/career-login", "/business-register",
+                    "/business-login"};
 
-    public WebSecurityConfiguration(WorkerService workerService, BCryptPasswordEncoder bCryptPasswordEncoder) {
+
+
+    private final UserDetailsService userDetailsService;
+
+    @Autowired
+    public WebSecurityConfiguration(WorkerService workerService, UserDetailsService userDetailsService) {
         this.workerService = workerService;
-        this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+        this.userDetailsService = userDetailsService;
     }
 
     @Override
@@ -29,12 +44,23 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http
-                    .authorizeRequests()
-                    .antMatchers("/", "/about-us", "/business", "/career", "/career-register",  "/career-login", "/business-register", "/business-login").permitAll()
-                    .anyRequest().authenticated()
-                    .and()
-                    .csrf().disable();
+                .cors()
+                .and()
+                .csrf()
+                .disable()
+                .authorizeRequests()
+                .antMatchers("/**").permitAll()
+                .antMatchers("/career-home").hasAuthority("ROLE_WORKER")
+                .anyRequest().authenticated()
+                .and().formLogin().loginPage("/career-login").permitAll()
+                .passwordParameter("password")
+                .usernameParameter("email")
+                .defaultSuccessUrl("/career-home-for-noobs")
+                .failureUrl("/career-login.html?error=true")
+                .and()
+                .userDetailsService(this.userDetailsService);
 
-        }
+
     }
+}
 

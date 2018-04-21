@@ -3,17 +3,134 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <th:block th:replace="loged-as-project-manager-fragments/header"></th:block>
+    <style>
+        .table {
+            width: 80%;
+            max-width: 80%;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+
+        table, th, td {
+            color: #fff;
+            align-items: center;
+        }
+
+        table tr {
+            background-color: #708090;
+        }
+
+    </style>
 </head>
-<body background="/img/project-manager-workers.jpg">
+<body background="/img/project-manager-workers.jpg" class="bg">
 <div class="container-fluid">
     <th:block th:replace="loged-as-project-manager-fragments/navbar"></th:block>
     <hr style="margin-top: 2px"/>
 </div>
+
+<div class="form-holder text-center">
+    <h2>New Worker Applies</h2>
+</div>
+
+<div class="form-holder text-center" align="center">
+
+        <table class="table table-bordered table-dark" align="center">
+
+            <!--Table head-->
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Profile</th>
+                <th>Email</th>
+                <th>Applies for Job</th>
+                <th>Edit</th>
+                <th>Approve</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <!--Table head-->
+
+            <!--Table body-->
+            <tbody>
+            <th:block th:each="worker : ${applyForWorkers}">
+
+                <tr>
+                    <td th:utext="${worker.getId()}">Id</td>
+                    <td th:utext="${worker.getFullName()}">FullName</td>
+                    <td th:utext="${worker.getEmail()}">Email</td>
+                    <td th:utext="${worker.getJob().getName()}">Job</td>
+                   <td>
+                       <form th:method="post" th:action="@{/project-manager-aprove-worker(workerId=${worker.getId()})}">
+                           <div class="controls">
+                               <button type="submit" class="btn btn-light">Aprove</button>
+                           </div>
+                       </form>
+                   </td>
+                    <td>
+                        <a class="nav-link text-white h5" th:href="@{/project-manager-edit-worker(workerId=${worker.getId()})}">Edit</a>
+                    </td>
+                    <td>
+                        <form th:method="post" th:action="@{/project-manager-delete-worker(workerId=${worker.getId()})}">
+                            <div class="controls">
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </div>
+                        </form>
+                    </td>
+
+                </tr>
+
+            </th:block>
+
+            </tbody>
+            <!--Table body-->
+
+        </table>
+        <!--Table-->
+</div>
+
+<div class="form-holder text-center">
+    <h2>Workers</h2>
+</div>
+<div class="form-holder text-center" align="center">
+
+    <table class="table table-bordered table-dark" align="center">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Job</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="worker : ${workers}">
+
+            <tr>
+                <td th:utext="${worker.getId()}">Id</td>
+                <td th:utext="${worker.getFullName()}">FullName</td>
+                <td th:utext="${worker.getEmail()}">Email</td>
+                <td th:utext="${worker.getJob().getName()}">Job</td>
+                <td>
+                    <form th:method="post" th:action="@{/project-manager-edit-worker(workerId=${worker.getId()})}">
+                        <div class="controls">
+                            <button type="submit" class="btn btn-info">Edit</button>
+                        </div>
+                    </form>
+                </td>
+                <td>
+                    <form th:method="post" th:action="@{/project-manager-delete-worker(workerId=${worker.getId()})}">
+                        <div class="controls">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+
+        </th:block>
+        </tbody>
+    </table>
+</div>
 </body>
-<footer>
-    <hr/>
-    <div>
-        <th:block th:replace="loged-as-project-manager-fragments/footer"></th:block>
-    </div>
-</footer>
 </html>

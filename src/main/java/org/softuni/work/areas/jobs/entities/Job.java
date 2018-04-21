@@ -18,15 +18,37 @@ public class Job {
     @Column(name = "id", updatable = false, nullable = false)
     private String id;
 
+    @Column(nullable = false)
     private String name;
 
+    @Column(nullable = false)
     private String description;
 
-    @OneToMany(cascade = CascadeType.ALL,
-            mappedBy = "job", orphanRemoval = true)
+    @Column(nullable = false)
+    private String requirements;
+
+    private boolean available;
+
+    @OneToMany(mappedBy = "job")
     private List<Worker> workerList;
 
     public Job() {
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
+    public String getRequirements() {
+        return requirements;
+    }
+
+    public void setRequirements(String requirements) {
+        this.requirements = requirements;
     }
 
     public String getId() {

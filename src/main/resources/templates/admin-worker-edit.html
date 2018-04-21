@@ -8,6 +8,56 @@
 <div class="container-fluid">
     <th:block th:replace="loged-as-admin-fragments/black-navbar"></th:block>
 </div>
+<div class="row justify-content-center">
+    <div class="form-holder text-center">
+        <form class="form-inline"
+              th:action="@{/admin-edit-worker(workerId=${workerCurrentInformation.getId()})}" method="POST"
+              th:object="${workerCurrentInformation}">
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label h3 mb-2" for="fullName">Full Name</label>
+                    <div class="controls">
+                        <input type="text" th:field="*{fullName}" th:value="${workerCurrentInformation.getFullName()}"
+                               id="fullName" name="fullName" placeholder="" class="input-xlarge">
+
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="control-group">
+                    <label class="control-label h3 mb-2" for="email">Email</label>
+                    <div class="controls">
+                        <input type="text" th:field="*{email}" th:value="${workerCurrentInformation.getEmail()}"
+                               id="email"
+                               name="email" placeholder=""
+                               class="input-xlarge">
+
+                    </div>
+                </div>
+                </br>
+                <div class="control-group">
+                    <label class="control-label h3 mb-2">Roles</label>
+                    </br>
+                    <select id="multiSelectElementsSelected"
+                            th:field="*{roleId}"
+                            multiple="multiple">
+                        <option th:each="role : ${allRoles}"
+                                th:value="${role.getId()}"
+                                th:utext="${role.getAuthority()}"/>
+                    </select>
+
+                </div>
+                <br/>
+                <br/>
+                <div class="control-group">
+                    <div style="margin-bottom: 2px" class="controls">
+                        <button type="submit" class="btn btn-info">Edit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
 </body>
 <footer>
     <hr/>

@@ -1,7 +1,6 @@
 package org.softuni.work.areas.workers.controllers;
 
 import org.softuni.work.areas.businesPartners.models.BusinessPartnerLoginBindingModel;
-import org.softuni.work.areas.businesPartners.models.BusinessPartnerRegisterBindingModel;
 import org.softuni.work.areas.workers.models.WorkerLoginBindingModel;
 import org.softuni.work.areas.workers.models.WorkerRegisterBindingModel;
 import org.softuni.work.areas.workers.services.interfaces.WorkerService;
@@ -10,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -34,32 +32,32 @@ public class WorkerAccountController {
         return new ModelAndView("career-login");
     }
 
-    @PostMapping("/career-login")
-    public ModelAndView loginConfirm(@Valid WorkerLoginBindingModel bindingModel,
-                                     BindingResult bindingResult,
-                                     ModelAndView modelAndView,
-                                     Model model,
-                                     RedirectAttributes redirectAttributes) throws Exception {
-        if (bindingResult.hasErrors()) {
-            redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.workerInput", bindingResult);
-            redirectAttributes.addFlashAttribute("workerInput", bindingModel);
+  // @PostMapping("/career-login")
+  // public ModelAndView loginConfirm(@Valid WorkerLoginBindingModel bindingModel,
+  //                                  BindingResult bindingResult,
+  //                                  ModelAndView modelAndView,
+  //                                  Model model,
+  //                                  RedirectAttributes redirectAttributes) throws Exception {
+  //     if (bindingResult.hasErrors()) {
+  //         redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.workerInput", bindingResult);
+  //         redirectAttributes.addFlashAttribute("workerInput", bindingModel);
 
-            modelAndView.setViewName("redirect:/career-login");
-        }else{
-            modelAndView.setViewName("redirect:/career-home");
-        }
-        try {
-            this.workerService.login(bindingModel);
+  //         modelAndView.setViewName("redirect:/career-login");
+  //     }else{
+  //         modelAndView.setViewName("redirect:/career-home");
+  //     }
+  //     try {
+  //         this.workerService.login(bindingModel);
 
-        } catch (Exception e) {
-            String errorMsg =e.getMessage();
-            model.addAttribute("errorMsg", errorMsg);
-            modelAndView.setViewName("redirect:/career-login");
+  //     } catch (Exception e) {
+  //         String errorMsg =e.getMessage();
+  //         model.addAttribute("errorMsg", errorMsg);
+  //         modelAndView.setViewName("redirect:/career-login");
 
-        }
+  //     }
 
-        return modelAndView;
-    }
+  //     return modelAndView;
+  // }
 
     @GetMapping("/career-register")
     public ModelAndView careerRegister(Model model) {

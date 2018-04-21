@@ -8,7 +8,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -33,33 +32,33 @@ public class BusinessAccountController {
         return new ModelAndView("business-login");
     }
 
-    @PostMapping("/business-login")
-    public ModelAndView loginConfirm(@Valid BusinessPartnerLoginBindingModel bindingModel,
-                                            BindingResult bindingResult,
-                                            ModelAndView modelAndView,
-                                            Model model,
-                                            RedirectAttributes redirectAttributes) throws Exception {
+  @PostMapping("/business-login")
+  public ModelAndView loginConfirm(@Valid BusinessPartnerLoginBindingModel bindingModel,
+                                          BindingResult bindingResult,
+                                          ModelAndView modelAndView,
+                                          Model model,
+                                          RedirectAttributes redirectAttributes) throws Exception {
 
-        if (bindingResult.hasErrors()) {
-            redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
-            redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
+      if (bindingResult.hasErrors()) {
+          redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
+          redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
 
-            modelAndView.setViewName("redirect:/business-login");
-        }else{
-            modelAndView.setViewName("redirect:/business-home");
-        }
-        try {
-            this.businessPartnerService.login(bindingModel);
+          modelAndView.setViewName("redirect:/business-login");
+      }else{
+          modelAndView.setViewName("redirect:/business-home");
+      }
+      try {
+          this.businessPartnerService.login(bindingModel);
 
-        } catch (Exception e) {
-            String errorMsg =e.getMessage();
-            model.addAttribute("errorMsg", errorMsg);
-            modelAndView.setViewName("redirect:/business-login");
+      } catch (Exception e) {
+          String errorMsg =e.getMessage();
+          model.addAttribute("errorMsg", errorMsg);
+          modelAndView.setViewName("redirect:/business-login");
 
-        }
+      }
 
-        return modelAndView;
-    }
+       return modelAndView;
+   }
 
     @GetMapping("/business-register")
     public ModelAndView businessRegister(Model model) {
@@ -72,25 +71,25 @@ public class BusinessAccountController {
         return new ModelAndView("business-register");
     }
 
-    @PostMapping("/business-register")
-    public ModelAndView registerConfirm(@Valid BusinessPartnerRegisterBindingModel bindingModel,
-                                        BindingResult bindingResult,
-                                        ModelAndView modelAndView,
-                                        RedirectAttributes redirectAttributes){
+        @PostMapping("/business-register")
+        public ModelAndView registerConfirm(@Valid BusinessPartnerRegisterBindingModel bindingModel,
+                                            BindingResult bindingResult,
+                                            ModelAndView modelAndView,
+                                            RedirectAttributes redirectAttributes){
 
-        if (bindingResult.hasErrors()) {
-            redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
-            redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
+            if (bindingResult.hasErrors()) {
+                redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
+                redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
 
-            modelAndView.setViewName("redirect:/business-register");
-        } else {
-            modelAndView.setViewName("redirect:/business-login");
-            this.businessPartnerService.register(bindingModel);
+                modelAndView.setViewName("redirect:/business-register");
+            } else {
+                modelAndView.setViewName("redirect:/business-login");
+                this.businessPartnerService.register(bindingModel);
+            }
+
+            return modelAndView;
+
         }
-
-        return modelAndView;
-
-    }
 
 }
 

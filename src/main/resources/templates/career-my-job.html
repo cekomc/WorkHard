@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:replace="loged-in-worker-fragments/header"></th:block>
+
+</head>
+<body background="/img/career-job.jpg" class="bg">
+<div class="container-fluid">
+    <th:block th:replace="loged-in-worker-fragments/navbar-for-noobs"></th:block>
+</div>
+<div class="form-holder text-center">>
+    <div class="section light-bg" id="features">
+        <div class="container">
+
+            <div class="section-title">
+                <h2 style="color: #ffffff;">Available Jobs</h2>
+                </br>
+            </div>
+
+
+            <div class="row">
+                <th:block th:each="jobAvailable : ${jobsAvailable}">
+                    <div class="col-12 col-lg-4">
+                        <div class="card features">
+                            <div class="card-body">
+                                <div class="media">
+                                    <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                    <div class="media-body">
+                                        <h4 class="card-title" th:utext="${jobAvailable.getName()}">Project Name</h4>
+                                        <p class="card-text" th:utext="${jobAvailable.getDescription()}">Job Content</p>
+                                        <p class="card-text" th:utext="${jobAvailable.getRequirements()}">Job Content</p>
+                                    </div>
+                                    <form th:method="post" th:action="@{/apply-for-job(jobId=${jobAvailable.getId()})}">
+                                        <div class="controls">
+                                            <button type="submit" class="btn btn-info">Apply</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </th:block>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+<footer>
+    <hr/>
+    <div style="">
+        <th:block th:replace="busines-fragments/footer"></th:block>
+    </div>
+</footer>
+</html>

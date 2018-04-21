@@ -1,23 +1,17 @@
 package org.softuni.work.areas.workers.entities;
 
 import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.validator.constraints.Email;
 import org.softuni.work.areas.jobs.entities.Job;
 import org.softuni.work.areas.projects.entities.Project;
 import org.softuni.work.areas.roles.entities.Role;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
-import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
-public class Worker implements UserDetails {
+public class Worker{
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(
@@ -39,26 +33,19 @@ public class Worker implements UserDetails {
     @Column(nullable = false)
     private String cv;
 
-    @ManyToMany(cascade =
-            {CascadeType.PERSIST, CascadeType.MERGE})
-    @JoinTable(name = "worker_project",
-            joinColumns = {
-                    @JoinColumn(
-                            name = "worker_id",
-                            referencedColumnName = "id"
-                    )
-            },
-            inverseJoinColumns = {
-                    @JoinColumn(
-                            name = "project_id",
-                            referencedColumnName = "id"
-                    )
-            }
-    )
+    private boolean hassApplied;
+
+    private boolean isAproved;
+
+    @ManyToMany(mappedBy="workerList")
     private List<Project> projectList;
 
     @ManyToOne
-    @JoinColumn(name = "job_id")
+    @JoinTable(
+            name="workers_jobs",
+            joinColumns = @JoinColumn( name="worker_id"),
+            inverseJoinColumns = @JoinColumn( name="job_id")
+    )
     private Job job;
 
 
@@ -66,36 +53,34 @@ public class Worker implements UserDetails {
     @JoinTable(name = "worker_roles",
             joinColumns = @JoinColumn(name = "worker_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
-    private List<Role> roles;
+    private Set<Role> roles;
 
     public Worker() {
+        this.roles = new HashSet<>();
     }
 
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return this.roles;
+    public boolean isHassApplied() {
+        return hassApplied;
     }
 
-
-    @Override
-    public boolean isAccountNonExpired() {
-        return true;
+    public void setHassApplied(boolean hassApplied) {
+        this.hassApplied = hassApplied;
     }
 
-    @Override
-    public boolean isAccountNonLocked() {
-        return true;
+    public boolean isAproved() {
+        return isAproved;
     }
 
-    @Override
-    public boolean isCredentialsNonExpired() {
-        return true;
+    public void setAproved(boolean aproved) {
+        isAproved = aproved;
     }
 
-    @Override
-    public boolean isEnabled() {
-        return true;
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
     }
 
     public String getId() {
@@ -116,11 +101,6 @@ public class Worker implements UserDetails {
 
     public String getPassword() {
         return password;
-    }
-
-    @Override
-    public String getUsername() {
-        return null;
     }
 
     public void setPassword(String password) {

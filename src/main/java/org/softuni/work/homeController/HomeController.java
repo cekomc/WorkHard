@@ -2,7 +2,10 @@ package org.softuni.work.homeController;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class HomeController {
@@ -37,69 +40,27 @@ public class HomeController {
         return new ModelAndView("business-home");
     }
 
-    @GetMapping("/career-home")
-    public ModelAndView careerHome(){
-        return new ModelAndView("career-home");
-    }
-
-    @GetMapping("/career-my-profile")
-    public ModelAndView careerMyProfile(){
-        return new ModelAndView("career-my-profile");
-    }
-
-    @GetMapping("/career-my-projects")
-    public ModelAndView carerMyProjects(){
-        return new ModelAndView("career-my-projects");
-    }
-
-    @GetMapping("/admin-home")
-    public ModelAndView adminHome(){
-        return new ModelAndView("admin-home");
-    }
-
-    @GetMapping("/admin-workers")
-    public ModelAndView adminWorkers(){
-        return new ModelAndView("admin-workers");
-    }
-
-    @GetMapping("/admin-all-projects")
-    public ModelAndView adminAllProjects(){
-        return new ModelAndView("admin-all-projects");
-    }
-
-    @GetMapping("/admin-worker-edit")
-    public ModelAndView adminWorkerEdit(){
-        return new ModelAndView("admin-worker-edit");
-    }
-
-    @GetMapping("/project-manager-home")
-    public ModelAndView projectManagerHome(){
-        return new ModelAndView("project-manager-home");
-    }
-
-    @GetMapping("/project-manager-list-projects")
-    public ModelAndView projectManagerListProjects(){
-        return new ModelAndView("project-manager-list-projects");
-    }
-
-    @GetMapping("/project-manager-workers")
-    public ModelAndView projectManagerWorkers(){
-        return new ModelAndView("project-manager-workers");
-    }
-
-    @GetMapping("/project-manager-edit-worker")
-    public ModelAndView projectManagerEditWorker(){
-        return new ModelAndView("project-manager-edit-worker");
-    }
-
-    @GetMapping("/project-manager-edit-project")
-    public ModelAndView projectManagerEditProject(){
-        return new ModelAndView("project-manager-edit-project");
-    }
 
     @GetMapping("/showForm")
     public ModelAndView formShow(){
         return new ModelAndView("virus-form");
     }
 
+    @PostMapping("/logout")
+    public ModelAndView logout(@RequestParam(required = false, name = "logout") String logout, ModelAndView modelAndView, RedirectAttributes redirectAttributes) {
+        modelAndView.setViewName("redirect:/");
+
+        if(logout != null) redirectAttributes.addFlashAttribute("logout", logout);
+
+        return modelAndView;
+    }
+
+    @PostMapping("/business-logout")
+    public ModelAndView businessLogout(@RequestParam(required = false, name = "business-logout") String logout, ModelAndView modelAndView, RedirectAttributes redirectAttributes) {
+        modelAndView.setViewName("redirect:/");
+
+        if(logout != null) redirectAttributes.addFlashAttribute("logout", logout);
+
+        return modelAndView;
+    }
 }

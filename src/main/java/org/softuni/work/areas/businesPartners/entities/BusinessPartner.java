@@ -1,14 +1,23 @@
 package org.softuni.work.areas.businesPartners.entities;
 
+import org.hibernate.FetchMode;
+import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.validator.constraints.Email;
 import org.softuni.work.areas.projects.entities.Project;
+import org.softuni.work.areas.roles.entities.BusinessRole;
+import org.softuni.work.areas.roles.entities.Role;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 public class BusinessPartner {
@@ -36,11 +45,25 @@ public class BusinessPartner {
     @Column(nullable = false)
     private String companyName;
 
-    @OneToMany(cascade = CascadeType.ALL,
-            mappedBy = "businessPartner", orphanRemoval = true)
+    @OneToMany(mappedBy = "businessPartner") // inverse side: it has a mappedBy attribute, and can't decide how the association is mapped, since the other side already decided it.
     private List<Project> projectList;
 
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "business_roles",
+            joinColumns = @JoinColumn(name = "business_partner_id"),
+            inverseJoinColumns = @JoinColumn(name = "business_role_id"))
+    private Set<BusinessRole> roles;
+
     public BusinessPartner() {
+        this.roles = new HashSet<>();
+    }
+
+    public Set<BusinessRole> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(Set<BusinessRole> roles) {
+        this.roles = roles;
     }
 
     public String getId() {

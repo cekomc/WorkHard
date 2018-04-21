@@ -1,0 +1,27 @@
+<th:block th:fragment="navbar">
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-color-dark">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-muted h5" href="/career-home-for-noobs">WorkHard</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li style="margin-right: 5px" class="nav-item active col-md-4">
+                    <a class="nav-link text-muted h5" href="/career-my-profile-for-noobs">Profile</a>
+                </li >
+                <li style="margin-right: 10px" class="nav-item active col-md-4">
+                    <a class="nav-link text-muted h5" href="/career-my-jobs">Jobs</a>
+                </li>
+                <li class="nav-item active col-md-4">
+                    <form>
+                        <a class="nav-link text-muted h5" href="/logout">Logout</a>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr style="margin-top: 2px"/>
+</th:block>

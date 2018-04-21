@@ -4,17 +4,60 @@
 <head>
     <th:block th:replace="loged-as-project-manager-fragments/header"></th:block>
 </head>
-<body background="/img/project-manager-edit-worker.jpg">
+<body background="/img/project-manager-edit-worker.jpg" class="bg">
 <div class="container-fluid">
     <th:block th:replace="loged-as-project-manager-fragments/navbar"></th:block>
     <hr style="margin-top: 2px"/>
 </div>
+    <div class="row justify-content-center">
+        <div class="form-holder text-center">
+            <form class="form-inline" th:action="@{/project-manager-edit-worker(workerId=${workerCurrentInformation.getId()})}" method="POST"
+                  th:object="${workerCurrentInformation}">
+                <fieldset>
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2" for="fullName">Full Name</label>
+                        <div class="controls">
+                            <input type="text" th:field="*{fullName}" th:value="${workerCurrentInformation.getFullName()}"
+                                   id="fullName" name="fullName" placeholder="" class="input-xlarge">
+
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2" for="email">Email</label>
+                        <div class="controls">
+                            <input type="text" th:field="*{email}" th:value="${workerCurrentInformation.getEmail()}" id="email"
+                                   name="email" placeholder=""
+                                   class="input-xlarge">
+
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="control-group">
+                        <label class="control-label h3 mb-2" for="password">Password</label>
+                        <div class="controls">
+                            <input type="text" th:field="*{password}" th:value="${workerCurrentInformation.getPassword()}"
+                                   id="password" name="password" placeholder=""
+                                   class="input-xlarge">
+
+                        </div>
+                    </div>
+                    <br/>
+
+                    <br/>
+                    <div class="control-group">
+                        <div style="margin-bottom: 2px" class="controls">
+                            <button class="btn btn-info">Edit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
 
 </body>
-<footer>
-    <hr/>
-    <div>
-        <th:block th:replace="loged-as-project-manager-fragments/footer"></th:block>
-    </div>
-</footer>
+
 </html>
