@@ -4,11 +4,13 @@ import org.softuni.work.areas.jobs.entities.Job;
 import org.softuni.work.areas.jobs.service.interfaces.JobService;
 import org.softuni.work.areas.projects.entities.Project;
 import org.softuni.work.areas.projects.service.interfaces.ProjectService;
+import org.softuni.work.areas.roles.entities.Role;
 import org.softuni.work.areas.workers.entities.Worker;
 import org.softuni.work.areas.workers.services.interfaces.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,6 +26,7 @@ public class WorkerHomeController {
     private final WorkerService workerService;
     private final ProjectService projectService;
     private final JobService jobService;
+    private String message;
 
     @Autowired
     public WorkerHomeController(WorkerService workerService, ProjectService projectService, JobService jobService) {
@@ -36,32 +39,33 @@ public class WorkerHomeController {
     @GetMapping("/career-home")
     private ModelAndView careerHome(ModelAndView modelAndView) {
         modelAndView.setViewName("career-home");
-        // org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        // String email = auth.getName();
-        // Worker worker = this.workerService.loadWorkerByEmail(email);
-        // if(worker.getRoles().toString().equals("ROLE_ADMIN")){
-        //     modelAndView.setViewName("admin-home");
-        // }else if(worker.getRoles().toString().equals("ROLE_PROJECT_MANAGER")){
-        //     modelAndView.setViewName("project-manager-home");
-        // }else {
-        //     if(worker.getJob()==null){
-        //         modelAndView.setViewName("career-home-for-noobs");
-        //     }else {
-        //         modelAndView.addObject("worker", this.workerService.loadWorkerByEmail(email));
-        //         modelAndView.setViewName("career-home");
-        //     }
-        // }
+        org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        String email = auth.getName();
+        modelAndView.addObject("worker", this.workerService.loadWorkerByEmail(email));
 
         return modelAndView;
     }
 
     @GetMapping("career-home-for-noobs")
-    private ModelAndView getNoobHome(ModelAndView modelAndView) {
+    private ModelAndView getNoobHome(ModelAndView modelAndView, Model model) {
         modelAndView.setViewName("career-home-for-noobs");
 
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String email = auth.getName();
+        Worker worker = this.workerService.loadWorkerByEmail(email);
+        for (Role role : worker.getRoles()) {
+            if (role.getAuthority().equals("ROLE_ADMIN")) {
+                modelAndView.setViewName("redirect:/admin-home");
+            } else if (role.getAuthority().equals("ROLE_PROJECT_MANAGER")) {
+                modelAndView.setViewName("redirect:/project-manager-home");
+            } else if (worker.isAproved()) {
+                modelAndView.setViewName("redirect:/career-home");
+            }
+        }
         modelAndView.addObject("worker", this.workerService.loadWorkerByEmail(email));
+        if (!(message == null)) {
+            model.addAttribute("message", message);
+        }
         return modelAndView;
 
     }
@@ -72,7 +76,6 @@ public class WorkerHomeController {
 
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String email = auth.getName();
-        email="petio@abv.bg";
         Worker worker = this.workerService.loadWorkerByEmail(email);
         modelAndView.addObject("worker", worker);
         return modelAndView;
@@ -85,14 +88,13 @@ public class WorkerHomeController {
 
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String email = auth.getName();
-        email="petio@abv.bg";
         Worker worker = this.workerService.loadWorkerByEmail(email);
         modelAndView.addObject("worker", worker);
         return modelAndView;
     }
 
     @GetMapping("career-my-jobs")
-    public ModelAndView getMyJobs(ModelAndView modelAndView) {
+    public ModelAndView getMyJobs(ModelAndView modelAndView, Model model) {
         modelAndView.setViewName("career-my-job");
 
         //  org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
@@ -116,16 +118,17 @@ public class WorkerHomeController {
 
     @PostMapping("/apply-for-job")
     public ModelAndView applyForProjects(@RequestParam("jobId") String jobId, ModelAndView modelAndView) {
-        modelAndView.setViewName("career-home-for-noobs");
+        modelAndView.setViewName("redirect:/career-home-for-noobs");
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String email = auth.getName();
-        String ceko = "marto@abv.bg";
-        Worker worker = this.workerService.loadWorkerByEmail(ceko);
+        Worker worker = this.workerService.loadWorkerByEmail(email);
         worker.setHassApplied(true);
         worker.setJob(this.jobService.findJobById(jobId));
         Job job = this.jobService.findJobById(jobId);
         job.getWorkerList().add(worker);
         this.jobService.saveJob(job);
+        this.workerService.saveEditedWorker(worker);
+        this.message = "Successful applied for job";
         return modelAndView;
     }
 
@@ -134,16 +137,12 @@ public class WorkerHomeController {
         modelAndView.setViewName("career-my-projects");
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String email = auth.getName();
-        String ceko = "ceko@abv.bg";
-        String id = "b8c4fce5-8670-473a-8d90-8d3008b44931";
-        Project project = this.projectService.findProjectById(id);
-        Worker worker = this.workerService.loadWorkerByEmail(ceko);
-        project.getWorkerList().add(worker);
-        worker.getProjectList().add(project);
+        Worker worker = this.workerService.loadWorkerByEmail(email);
+        List<Project> project = new ArrayList<>();
+        project.addAll(worker.getProjectList());
         modelAndView.addObject("projects", project);
 
         return modelAndView;
     }
-
 
 }

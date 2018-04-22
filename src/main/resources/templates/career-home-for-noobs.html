@@ -8,7 +8,18 @@
 <div class="container-fluid">
     <th:block th:replace="loged-in-worker-fragments/navbar-for-noobs"></th:block>
 </div>
+<script th:inline="javascript">
+    /*<![CDATA[*/
 
+    var message = /*[[${message}]]*/ 'default';
+    if(message == null){
+
+    }else {
+        alert(message)
+    }
+
+    /*]]>*/
+</script>
 </body>
 <footer>
     <hr/>

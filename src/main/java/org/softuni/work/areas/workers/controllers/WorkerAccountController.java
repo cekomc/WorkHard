@@ -13,12 +13,14 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
 
 @Controller
 public class WorkerAccountController {
     private final WorkerService workerService;
+    private String message;
 
     @Autowired
     public WorkerAccountController(WorkerService workerService) {
@@ -26,10 +28,14 @@ public class WorkerAccountController {
     }
 
     @GetMapping("/career-login")
-    public ModelAndView careerLogin(Model model) {
+    public ModelAndView careerLogin(Model model, ModelAndView modelAndView) {
+        modelAndView.setViewName("/career-login");
         if (!model.containsAttribute("workerInput"))
-            model.addAttribute("workerInput", new BusinessPartnerLoginBindingModel());
-        return new ModelAndView("career-login");
+            model.addAttribute("workerInput", new WorkerLoginBindingModel());
+        if(!(message ==null)){
+            model.addAttribute("message",message);
+        }
+        return modelAndView;
     }
 
   // @PostMapping("/career-login")
@@ -71,6 +77,7 @@ public class WorkerAccountController {
     @PostMapping("/career-register")
     public ModelAndView registerConfirm(@Valid WorkerRegisterBindingModel bindingModel,
                                         BindingResult bindingResult,
+                                        Model model,
                                         ModelAndView modelAndView,
                                         RedirectAttributes redirectAttributes) {
         if (bindingResult.hasErrors()) {
@@ -81,6 +88,7 @@ public class WorkerAccountController {
         } else {
             modelAndView.setViewName("redirect:/career-login");
             this.workerService.register(bindingModel);
+            message = "Worker successful registered";
         }
 
         return modelAndView;

@@ -27,8 +27,6 @@ public class BusinessAccountController {
     public ModelAndView businessLogin(Model model) {
         if (!model.containsAttribute("businessPartnerInput"))
             model.addAttribute("businessPartnerInput", new BusinessPartnerLoginBindingModel());
-        if (!model.containsAttribute("errorMsg"))
-            model.addAttribute("errorMsg", "");
         return new ModelAndView("business-login");
     }
 
@@ -53,7 +51,7 @@ public class BusinessAccountController {
       } catch (Exception e) {
           String errorMsg =e.getMessage();
           model.addAttribute("errorMsg", errorMsg);
-          modelAndView.setViewName("redirect:/business-login");
+          modelAndView.setViewName("/business-home");
 
       }
 

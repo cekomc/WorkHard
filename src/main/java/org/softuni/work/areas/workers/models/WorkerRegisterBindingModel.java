@@ -18,6 +18,7 @@ public class WorkerRegisterBindingModel {
     private String password;
 
     @NotEmpty(message = "Cv cannot be null!")
+    @Size(min= 8, max = 5000, message = "CV should not be lass than 8 symbols!")
     private String cv;
 
     public WorkerRegisterBindingModel() {

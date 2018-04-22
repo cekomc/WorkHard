@@ -36,7 +36,6 @@ public class AdminHomeController {
         modelAndView.setViewName("/admin-home");
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String email = auth.getName();
-        email = "petio@abv.bg";
         Worker worker = this.workerService.loadWorkerByEmail(email);
         modelAndView.addObject("admin", worker);
 
@@ -50,7 +49,9 @@ public class AdminHomeController {
         List<Worker> workersWithJob = new ArrayList<>();
         List<Role> roles = new ArrayList<>();
         for (Worker worker : allWorkers) {
-            workersWithJob.add(worker);
+            if(null!=worker.getJob()){
+                workersWithJob.add(worker);
+            }
             if (worker.getRoles().isEmpty()) {
                 Role role = new Role();
                 role = this.roleService.getRoleId("c31125fa-430b-11e8-842f-0ed5f89f718b");

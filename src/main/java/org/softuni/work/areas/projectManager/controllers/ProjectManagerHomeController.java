@@ -58,14 +58,14 @@ public class ProjectManagerHomeController {
     }
 
     @GetMapping("/project-manager-delete-project")
-    public ModelAndView projectManagerDeleteProject(@RequestParam("projectId") String projectId, ModelAndView modelAndView){
-      modelAndView.setViewName("redirect:/project-manager-list-projects");
-      this.projectService.deleteProject(projectId);
+    public ModelAndView projectManagerDeleteProject(@RequestParam("projectId") String projectId, ModelAndView modelAndView) {
+        modelAndView.setViewName("redirect:/project-manager-list-projects");
+        this.projectService.deleteProject(projectId);
         return modelAndView;
     }
 
     @GetMapping("/project-manager-edit-project")
-    public ModelAndView projectManagerEditProject(@RequestParam("projectId") String projectId, ModelAndView modelAndView){
+    public ModelAndView projectManagerEditProject(@RequestParam("projectId") String projectId, ModelAndView modelAndView) {
         modelAndView.setViewName("project-manager-edit-project");
         Project project = this.projectService.findProjectById(projectId);
         List<Worker> workers = this.workerService.findAllWorkers();
@@ -81,7 +81,7 @@ public class ProjectManagerHomeController {
     }
 
     @PostMapping("/project-manager-edit-project")
-    public ModelAndView projectManagerDoEditProject(@RequestParam("projectId") String projectId, ModelAndView modelAndView, ProjectEditBindingModel bindingModel){
+    public ModelAndView projectManagerDoEditProject(@RequestParam("projectId") String projectId, ModelAndView modelAndView, ProjectEditBindingModel bindingModel) {
         modelAndView.setViewName("redirect:/project-manager-list-projects");
         Project project = this.projectService.findProjectById(projectId);
         project.setName(bindingModel.getName());
@@ -89,7 +89,7 @@ public class ProjectManagerHomeController {
         project.setLink(bindingModel.getLink());
         Worker curentWorker = new Worker();
         for (String id : bindingModel.getWorkersId()) {
-            curentWorker=(this.workerService.findById(id));
+            curentWorker = (this.workerService.findById(id));
             project.getWorkerList().add(curentWorker);
         }
         project.setAssigned(true);
@@ -111,7 +111,7 @@ public class ProjectManagerHomeController {
     private List<Worker> loadWorkersWithJob(List<Worker> workers) {
         List<Worker> workersWithJobs = new ArrayList<>();
         for (Worker worker : workers) {
-            if(null!=worker.getJob()){
+            if (null != worker.getJob()) {
                 workersWithJobs.add(worker);
             }
         }
@@ -125,6 +125,7 @@ public class ProjectManagerHomeController {
         List<Worker> workersWithJob = findAllWorkersWithJob(this.service.listAllWorkers());
         modelAndView.addObject("workers", workersWithJob);
         modelAndView.addObject("applyForWorkers", appliedWorkers);
+
 
         return modelAndView;
     }
@@ -156,11 +157,10 @@ public class ProjectManagerHomeController {
     }
 
 
-
     private List<Worker> findAllWorkersWithJob(List<Worker> workers) {
         List<Worker> workersWithJob = new ArrayList<>();
         for (Worker worker : workers) {
-            if (worker.isHassApplied() && worker.isAproved()) {
+            if (worker.isHassApplied() && worker.isAproved() && worker.getJob()!=null) {
                 workersWithJob.add(worker);
             }
         }
@@ -199,6 +199,7 @@ public class ProjectManagerHomeController {
             modelAndView.setViewName("redirect:/project-manager-create-job");
         } else {
             modelAndView.setViewName("redirect:/project-manager-create-job");
+            bindingModel.setAvailable(true);
             this.jobService.create(bindingModel);
         }
 

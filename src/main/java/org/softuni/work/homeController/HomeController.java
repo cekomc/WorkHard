@@ -35,17 +35,6 @@ public class HomeController {
         return new ModelAndView("javaDevTag");
     }
 
-    @GetMapping("/business-home")
-    public ModelAndView businessHome(){
-        return new ModelAndView("business-home");
-    }
-
-
-    @GetMapping("/showForm")
-    public ModelAndView formShow(){
-        return new ModelAndView("virus-form");
-    }
-
     @PostMapping("/logout")
     public ModelAndView logout(@RequestParam(required = false, name = "logout") String logout, ModelAndView modelAndView, RedirectAttributes redirectAttributes) {
         modelAndView.setViewName("redirect:/");

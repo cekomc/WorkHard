@@ -10,6 +10,20 @@
 
 </div>
 <th:block th:replace="fragments/career-login"></th:block>
+
+
+<script th:inline="javascript">
+    /*<![CDATA[*/
+
+    var message = /*[[${message}]]*/ 'default';
+    if(message == null){
+
+    }else {
+        alert(message)
+    }
+
+    /*]]>*/
+</script>
 </body>
 <footer>
     <hr/>

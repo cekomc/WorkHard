@@ -36,7 +36,7 @@ public class ProjectController {
     public ModelAndView registerConfirm(@ModelAttribute ProjectCreateBindingModel bindingModel, ModelAndView modelAndView) {
         modelAndView.setViewName("redirect:/business-home");
         org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        String email ="murata@abv.bg";
+        String email = "ruka@abv.bg";
         BusinessPartner businessPartner = this.businessPartnerService.findByEmail(email);
         String getEmail = businessPartner.getEmail();
         this.projectService.create(bindingModel, getEmail);

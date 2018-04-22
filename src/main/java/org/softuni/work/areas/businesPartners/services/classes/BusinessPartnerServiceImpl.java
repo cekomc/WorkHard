@@ -8,10 +8,19 @@ import org.softuni.work.areas.businesPartners.repositories.BusinessPartnerReposi
 import org.softuni.work.areas.businesPartners.services.interfaces.BusinessPartnerService;
 import org.softuni.work.areas.roles.entities.BusinessRole;
 import org.softuni.work.areas.roles.services.interfaces.BusinessRoleService;
+import org.softuni.work.areas.workers.entities.Worker;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional
@@ -59,5 +68,6 @@ public class BusinessPartnerServiceImpl implements BusinessPartnerService{
     public BusinessPartner findByEmail(String email) {
         return this.businessPartnerRepository.findFirstByEmail(email);
     }
+
 
 }

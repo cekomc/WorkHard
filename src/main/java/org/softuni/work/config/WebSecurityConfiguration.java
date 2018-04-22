@@ -2,6 +2,7 @@ package org.softuni.work.config;
 
 import org.softuni.work.areas.workers.services.interfaces.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -15,13 +16,12 @@ import static org.hibernate.criterion.Restrictions.and;
 
 @Configuration
 @EnableWebSecurity
-@Order(0)
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     private final WorkerService workerService;
 
     private static final String[] routes = {"/", "/about-us", "/business", "/career",
                     "/career-register",  "/career-login", "/business-register",
-                    "/business-login"};
+                    "/business-login", "/business-home","/business-logout", "/business-create-app", "/business-my-apps"};
 
 
 
@@ -49,7 +49,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .csrf()
                 .disable()
                 .authorizeRequests()
-                .antMatchers("/**").permitAll()
+                .antMatchers(routes).permitAll()
                 .antMatchers("/career-home").hasAuthority("ROLE_WORKER")
                 .anyRequest().authenticated()
                 .and().formLogin().loginPage("/career-login").permitAll()

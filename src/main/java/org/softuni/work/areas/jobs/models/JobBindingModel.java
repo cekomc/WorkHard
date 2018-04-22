@@ -16,8 +16,18 @@ public class JobBindingModel {
     @NotEmpty(message = "FirstName cannot be null!")
     private String requirements;
 
+    private boolean available;
+
     private List<Worker>  workerList;
     public JobBindingModel() {
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 
     public List<Worker> getWorkerList() {

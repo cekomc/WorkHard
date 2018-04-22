@@ -24,12 +24,13 @@
                     <div class="col-12 col-lg-4">
                         <div class="card features">
                             <div class="card-body">
-                                <div class="media">
+                                <div class="media" style="margin-bottom: 20px">
                                     <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
                                     <div class="media-body">
                                         <h4 class="card-title" th:utext="${jobAvailable.getName()}">Project Name</h4>
                                         <p class="card-text" th:utext="${jobAvailable.getDescription()}">Job Content</p>
-                                        <p class="card-text" th:utext="${jobAvailable.getRequirements()}">Job Content</p>
+                                        <p class="card-text" th:utext="${jobAvailable.getRequirements()}">Job
+                                            Content</p>
                                     </div>
                                     <form th:method="post" th:action="@{/apply-for-job(jobId=${jobAvailable.getId()})}">
                                         <div class="controls">
@@ -48,6 +49,7 @@
 
     </div>
 </div>
+
 </body>
 <footer>
     <hr/>
