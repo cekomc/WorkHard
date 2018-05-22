@@ -38,18 +38,14 @@ public class HomeController {
     @PostMapping("/logout")
     public ModelAndView logout(@RequestParam(required = false, name = "logout") String logout, ModelAndView modelAndView, RedirectAttributes redirectAttributes) {
         modelAndView.setViewName("redirect:/");
-
         if(logout != null) redirectAttributes.addFlashAttribute("logout", logout);
-
         return modelAndView;
     }
 
     @PostMapping("/business-logout")
     public ModelAndView businessLogout(@RequestParam(required = false, name = "business-logout") String logout, ModelAndView modelAndView, RedirectAttributes redirectAttributes) {
         modelAndView.setViewName("redirect:/");
-
         if(logout != null) redirectAttributes.addFlashAttribute("logout", logout);
-
         return modelAndView;
     }
 }

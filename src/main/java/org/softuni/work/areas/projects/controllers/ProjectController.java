@@ -1,11 +1,9 @@
 package org.softuni.work.areas.projects.controllers;
 
-import org.softuni.work.areas.businesPartners.entities.BusinessPartner;
 import org.softuni.work.areas.businesPartners.services.interfaces.BusinessPartnerService;
 import org.softuni.work.areas.projects.models.ProjectCreateBindingModel;
 import org.softuni.work.areas.projects.service.interfaces.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -34,12 +32,8 @@ public class ProjectController {
 
     @PostMapping("/business-create-app")
     public ModelAndView registerConfirm(@ModelAttribute ProjectCreateBindingModel bindingModel, ModelAndView modelAndView) {
-        modelAndView.setViewName("redirect:/business-home");
-        org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        String email = "ruka@abv.bg";
-        BusinessPartner businessPartner = this.businessPartnerService.findByEmail(email);
-        String getEmail = businessPartner.getEmail();
-        this.projectService.create(bindingModel, getEmail);
-        return modelAndView;
+        return this.projectService.geCreatedApps(bindingModel, modelAndView);
     }
+
+
 }

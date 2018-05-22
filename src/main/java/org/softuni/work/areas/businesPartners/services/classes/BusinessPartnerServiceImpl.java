@@ -17,8 +17,13 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.transaction.Transactional;
+import javax.validation.Valid;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -63,6 +68,50 @@ public class BusinessPartnerServiceImpl implements BusinessPartnerService{
             throw new Exception("Password not found");
         }
     }
+
+    @Override
+    public void loginBusinessPartnerAndCheckForErrors(@Valid BusinessPartnerLoginBindingModel bindingModel, BindingResult bindingResult, ModelAndView modelAndView, Model model, RedirectAttributes redirectAttributes) {
+        if (bindingResult.hasErrors()) {
+            redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
+            redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
+
+            modelAndView.setViewName("redirect:/business-login");
+        }else{
+            modelAndView.setViewName("redirect:/business-home");
+        }
+        try {
+            login(bindingModel);
+
+        } catch (Exception e) {
+            String errorMsg =e.getMessage();
+            model.addAttribute("errorMsg", errorMsg);
+            modelAndView.setViewName("/business-home");
+
+        }
+    }
+
+    @Override
+    public void getBusinessPartnerRegister(Model model) {
+        if (!model.containsAttribute("businessPartnerInput")) {
+            model.addAttribute("businessPartnerInput",
+                    new BusinessPartnerRegisterBindingModel());
+        }
+    }
+
+    @Override
+    public void registerBusinessPartner(@Valid BusinessPartnerRegisterBindingModel bindingModel, BindingResult bindingResult, ModelAndView modelAndView, RedirectAttributes redirectAttributes) {
+        if (bindingResult.hasErrors()) {
+            redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
+            redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
+
+            modelAndView.setViewName("redirect:/business-register");
+        } else {
+            modelAndView.setViewName("redirect:/business-login");
+            register(bindingModel);
+        }
+    }
+
+
 
     @Override
     public BusinessPartner findByEmail(String email) {

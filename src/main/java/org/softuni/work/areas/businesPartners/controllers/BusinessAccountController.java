@@ -37,57 +37,27 @@ public class BusinessAccountController {
                                           Model model,
                                           RedirectAttributes redirectAttributes) throws Exception {
 
-      if (bindingResult.hasErrors()) {
-          redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
-          redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
-
-          modelAndView.setViewName("redirect:/business-login");
-      }else{
-          modelAndView.setViewName("redirect:/business-home");
-      }
-      try {
-          this.businessPartnerService.login(bindingModel);
-
-      } catch (Exception e) {
-          String errorMsg =e.getMessage();
-          model.addAttribute("errorMsg", errorMsg);
-          modelAndView.setViewName("/business-home");
-
-      }
-
+       businessPartnerService.loginBusinessPartnerAndCheckForErrors(bindingModel, bindingResult, modelAndView, model, redirectAttributes);
        return modelAndView;
    }
 
+
     @GetMapping("/business-register")
     public ModelAndView businessRegister(Model model) {
-
-        if (!model.containsAttribute("businessPartnerInput")) {
-            model.addAttribute("businessPartnerInput",
-                    new BusinessPartnerRegisterBindingModel());
-        }
-
+        businessPartnerService.getBusinessPartnerRegister(model);
         return new ModelAndView("business-register");
     }
 
-        @PostMapping("/business-register")
+    @PostMapping("/business-register")
         public ModelAndView registerConfirm(@Valid BusinessPartnerRegisterBindingModel bindingModel,
                                             BindingResult bindingResult,
                                             ModelAndView modelAndView,
                                             RedirectAttributes redirectAttributes){
 
-            if (bindingResult.hasErrors()) {
-                redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.businessPartnerInput", bindingResult);
-                redirectAttributes.addFlashAttribute("businessPartnerInput", bindingModel);
-
-                modelAndView.setViewName("redirect:/business-register");
-            } else {
-                modelAndView.setViewName("redirect:/business-login");
-                this.businessPartnerService.register(bindingModel);
-            }
-
-            return modelAndView;
-
+        businessPartnerService.registerBusinessPartner(bindingModel, bindingResult, modelAndView, redirectAttributes);
+        return modelAndView;
         }
+
 
 }
 

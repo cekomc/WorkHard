@@ -20,7 +20,6 @@ import javax.validation.Valid;
 @Controller
 public class WorkerAccountController {
     private final WorkerService workerService;
-    private String message;
 
     @Autowired
     public WorkerAccountController(WorkerService workerService) {
@@ -29,49 +28,13 @@ public class WorkerAccountController {
 
     @GetMapping("/career-login")
     public ModelAndView careerLogin(Model model, ModelAndView modelAndView) {
-        modelAndView.setViewName("/career-login");
-        if (!model.containsAttribute("workerInput"))
-            model.addAttribute("workerInput", new WorkerLoginBindingModel());
-        if(!(message ==null)){
-            model.addAttribute("message",message);
-        }
-        return modelAndView;
+       return this.workerService.getModelAndView(model, modelAndView);
     }
 
-  // @PostMapping("/career-login")
-  // public ModelAndView loginConfirm(@Valid WorkerLoginBindingModel bindingModel,
-  //                                  BindingResult bindingResult,
-  //                                  ModelAndView modelAndView,
-  //                                  Model model,
-  //                                  RedirectAttributes redirectAttributes) throws Exception {
-  //     if (bindingResult.hasErrors()) {
-  //         redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.workerInput", bindingResult);
-  //         redirectAttributes.addFlashAttribute("workerInput", bindingModel);
-
-  //         modelAndView.setViewName("redirect:/career-login");
-  //     }else{
-  //         modelAndView.setViewName("redirect:/career-home");
-  //     }
-  //     try {
-  //         this.workerService.login(bindingModel);
-
-  //     } catch (Exception e) {
-  //         String errorMsg =e.getMessage();
-  //         model.addAttribute("errorMsg", errorMsg);
-  //         modelAndView.setViewName("redirect:/career-login");
-
-  //     }
-
-  //     return modelAndView;
-  // }
 
     @GetMapping("/career-register")
     public ModelAndView careerRegister(Model model) {
-        if (!model.containsAttribute("workerInput")) {
-            model.addAttribute("workerInput",
-                    new WorkerRegisterBindingModel());
-        }
-        return new ModelAndView("career-register");
+        return this.workerService.getCareerRegister(model);
     }
 
     @PostMapping("/career-register")
@@ -80,17 +43,8 @@ public class WorkerAccountController {
                                         Model model,
                                         ModelAndView modelAndView,
                                         RedirectAttributes redirectAttributes) {
-        if (bindingResult.hasErrors()) {
-            redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.workerInput", bindingResult);
-            redirectAttributes.addFlashAttribute("workerInput", bindingModel);
-
-            modelAndView.setViewName("redirect:/career-register");
-        } else {
-            modelAndView.setViewName("redirect:/career-login");
-            this.workerService.register(bindingModel);
-            message = "Worker successful registered";
-        }
-
-        return modelAndView;
+        return this.workerService.getRegisterPropertyAndRegisterAnCareer(bindingModel, bindingResult, modelAndView, redirectAttributes);
     }
+
+
 }

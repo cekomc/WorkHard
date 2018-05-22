@@ -113,11 +113,7 @@
                 <td th:utext="${worker.getEmail()}">Email</td>
                 <td th:utext="${worker.getJob().getName()}">Job</td>
                 <td>
-                    <form th:method="post" th:action="@{/project-manager-edit-worker(workerId=${worker.getId()})}">
-                        <div class="controls">
-                            <button type="submit" class="btn btn-info">Edit</button>
-                        </div>
-                    </form>
+                    <a class="nav-link text-white h5" th:href="@{/project-manager-edit-worker(workerId=${worker.getId()})}">Edit</a>
                 </td>
                 <td>
                     <form th:method="post" th:action="@{/project-manager-delete-worker(workerId=${worker.getId()})}">

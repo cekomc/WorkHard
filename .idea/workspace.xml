@@ -5,46 +5,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/models/JobBindingModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/models/JobBindingModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/clasess/ProjectManagerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/clasess/ProjectManagerServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/interfaces/ProjectManagerService.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/interfaces/ProjectManagerService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/business-my-apps.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/business-my-apps.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/career-home-for-noobs.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/career-home-for-noobs.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/career-login.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/career-login.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/career-my-job.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/career-my-job.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/career-my-projects.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/career-my-projects.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/admin/controllers/AdminHomeController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/admin/controllers/AdminHomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/jobs/models/JobBindingModel.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/jobs/models/JobBindingModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/projects/controllers/ProjectController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/projects/controllers/ProjectController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/controllers/WorkerAccountController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/controllers/WorkerAccountController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/controllers/WorkerHomeController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/controllers/WorkerHomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/config/ApplicationBeanConfig.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/config/ApplicationBeanConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/config/WebSecurityConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/config/WebSecurityConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/work/homeController/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/org/softuni/work/homeController/HomeController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/busines-fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/busines-fragments/header.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/career-home-for-noobs.html" afterPath="$PROJECT_DIR$/target/classes/templates/career-home-for-noobs.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/career-login.html" afterPath="$PROJECT_DIR$/target/classes/templates/career-login.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/career-my-job.html" afterPath="$PROJECT_DIR$/target/classes/templates/career-my-job.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/career-my-projects.html" afterPath="$PROJECT_DIR$/target/classes/templates/career-my-projects.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/loged-in-business-fragments/white-navbar.html" afterPath="$PROJECT_DIR$/target/classes/templates/loged-in-business-fragments/white-navbar.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,106 +43,148 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BusinessHomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java">
+      <file leaf-file-name="AdminHomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="1430">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BusinessAccountController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java">
+      <file leaf-file-name="WebSecurityConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="198">
+              <caret line="21" column="84" lean-forward="false" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="business-my-apps.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-my-apps.html">
+      <file leaf-file-name="ApplicationBeanConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="46" column="116" lean-forward="false" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
+            <state relative-caret-position="286">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-              <folding>
-                <element signature="e#1322#1323#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectManagerHomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NativeMethodAccessorImpl.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <file leaf-file-name="WorkerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+            <state relative-caret-position="-928">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding>
+                <element signature="e#2014#2022#0" expanded="false" />
+                <element signature="method#WorkerServiceImpl#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#register#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#login#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#saveEditedWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#editWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#loadWorkerByEmail#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getRegisterPropertyAndRegisterAnCareer#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getCareerRegister#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getModelAndView#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#loadUserByUsername#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getHome#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getRoleAndLoadHomePage#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getProfileOfTheLogedInWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getLogedInCareerWithJob#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getJobsOfTheLogedInWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="e#9434#9549#0" expanded="false" />
+                <element signature="method#findAvailableJobs#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#applyForAJob#0;class#WorkerServiceImpl#0" expanded="false" />
+                <element signature="method#getMyProjects#0;class#WorkerServiceImpl#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-158">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkerRegisterBindingModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java">
+      <file leaf-file-name="ProjectManagerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/clasess/ProjectManagerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="924">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding>
+                <element signature="e#1916#1917#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
+                <element signature="method#getListWithAllProjects#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#editProject#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#doEditProject#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#getWorkers#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#aproveWorker#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#getJobCreate#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#createJob#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#findAllApplies#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#findAllWorkersWithJob#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#loadWorkersWithJob#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#getAsignedFalseProjects#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+                <element signature="method#getAsignedTrueProjects#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectManagerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/interfaces/ProjectManagerService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkerHomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java">
+      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/clasess/AdminServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+            <state relative-caret-position="-528">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/interfaces/AdminService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,9 +197,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -192,6 +208,10 @@
       <find>templates.</find>
       <find>\</find>
       <find>thymeleaf</find>
+      <find>load</find>
+      <find>findBt</find>
+      <find>edit</find>
+      <find>delete</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,17 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/service/clases/JobServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/repositories/WorkerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/loged-as-project-manager-fragments/edit-worker.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-edit-worker.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/edit/WorkerEditBindingModel.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/models/ProjectCreateBindingModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/entities/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-list-projects.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-edit-project.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin-home.html" />
@@ -236,26 +245,37 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/career-login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/career-home-for-noobs.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/models/JobBindingModel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/career-my-job.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/career-my-projects.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/config/ApplicationBeanConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityForBusiness.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/loged-in-business-fragments/white-navbar.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/business-my-apps.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/career-register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/interfaces/ProjectManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/clasess/ProjectManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/clasess/AdminServiceImpls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/clasess/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/interfaces/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -278,7 +298,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -302,8 +322,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,328 +397,6 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="softuni" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="businesPartners" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projectManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projectManager" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="clases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="clasess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
-              <item name="areas" type="462c0819:PsiDirectoryNode" />
-              <item name="workers" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -724,67 +423,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="busines-fragments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="fragments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="loged-in-business-fragments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WorkHard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WorkHard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="loged-in-worker-fragments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -799,6 +444,7 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="extract.method.default.visibility" value="public" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -964,15 +610,30 @@
       <workItem from="1524217662044" duration="35702000" />
       <workItem from="1524302522710" duration="33445000" />
       <workItem from="1524387884388" duration="20372000" />
+      <workItem from="1524411540502" duration="2193000" />
+      <workItem from="1524418797219" duration="625000" />
+      <workItem from="1524594350977" duration="1059000" />
+      <workItem from="1524759802871" duration="676000" />
+      <workItem from="1525779183582" duration="919000" />
+      <workItem from="1525868708046" duration="34000" />
+      <workItem from="1526984123306" duration="9927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295925000" />
+    <option name="totallyTimeSpent" value="311358000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7302632" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
@@ -994,9 +655,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70888156" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29425114" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267776" sideWeight="0.49342105" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.5065789" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1005,7 +667,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1052,118 +713,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/services/clases/RoleServiceImpl.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java</url>
           <line>50</line>
           <properties />
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java</url>
-          <line>102</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java</url>
-          <line>103</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java</url>
-          <line>124</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java</url>
-          <line>160</line>
-          <properties />
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java</url>
-          <line>129</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java</url>
-          <line>141</line>
-          <properties />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java</url>
@@ -1178,19 +737,31 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java</url>
-          <line>31</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="102" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1200,135 +771,134 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-register.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-my-job.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="239">
+          <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.3.RELEASE/spring-security-config-5.0.3.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="184" column="24" lean-forward="false" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/busines-fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-my-profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="47" column="60" lean-forward="false" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/repositories/WorkerRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/entities/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-my-profile-for-noobs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#button#0;n#center#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-login.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-worker-edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-workers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-my-projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityForBusiness.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.3.RELEASE/spring-security-config-5.0.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="165" column="86" lean-forward="false" selection-start-line="165" selection-start-column="86" selection-end-line="165" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/models/JobBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/loged-in-business-fragments/white-navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-home-for-noobs.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-my-apps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="968">
+          <caret line="44" column="62" lean-forward="false" selection-start-line="44" selection-start-column="62" selection-end-line="48" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-list-projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="49" column="45" lean-forward="true" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="1122">
+          <caret line="51" column="120" lean-forward="false" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="120" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerLoginBindingModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/entities/Job.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-edit-project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="1386">
+          <caret line="63" column="59" lean-forward="false" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -1341,70 +911,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-my-job.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/javaDevTag.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="26" column="77" lean-forward="false" selection-start-line="26" selection-start-column="77" selection-end-line="26" selection-end-column="77" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#th:block#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-edit-project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="63" column="59" lean-forward="true" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-worker-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin-workers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/clasess/ProjectManagerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#805#806#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/entities/BusinessRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/repositories/BusinessRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/repositories/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/roles/services/clases/BusinessRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="method#create#0;class#ProjectServiceImpl#0" expanded="false" />
+            <element signature="method#findAllProjects#0;class#ProjectServiceImpl#0" expanded="false" />
+            <element signature="method#deleteProject#0;class#ProjectServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.4.RELEASE/spring-webmvc-5.0.4.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="895">
+          <caret line="569" column="0" lean-forward="false" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1417,10 +1036,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/career-my-projects.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="42" column="23" lean-forward="true" selection-start-line="42" selection-start-column="23" selection-end-line="43" selection-end-column="14" />
+        <state relative-caret-position="87">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-workers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="115" column="132" lean-forward="false" selection-start-line="115" selection-start-column="132" selection-end-line="115" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/interfaces/BusinessPartnerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="176" lean-forward="false" selection-start-line="21" selection-start-column="176" selection-end-line="21" selection-end-column="176" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="109" column="12" lean-forward="false" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/clasess/ProjectManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="method#getListWithAllProjects#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#editProject#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#doEditProject#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#getWorkers#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#aproveWorker#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#getJobCreate#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#createJob#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#findAllApplies#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#findAllWorkersWithJob#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#loadWorkersWithJob#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#getAsignedFalseProjects#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+            <element signature="method#getAsignedTrueProjects#0;class#ProjectManagerServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/services/interfaces/ProjectManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/clasess/AdminServiceImpls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/interfaces/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/controllers/AdminHomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-928">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#2014#2022#0" expanded="false" />
+            <element signature="method#WorkerServiceImpl#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#register#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#login#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#saveEditedWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#editWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#loadWorkerByEmail#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getRegisterPropertyAndRegisterAnCareer#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getCareerRegister#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getModelAndView#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#loadUserByUsername#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getHome#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getRoleAndLoadHomePage#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getProfileOfTheLogedInWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getLogedInCareerWithJob#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getJobsOfTheLogedInWorker#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="e#9434#9549#0" expanded="false" />
+            <element signature="method#findAvailableJobs#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#applyForAJob#0;class#WorkerServiceImpl#0" expanded="false" />
+            <element signature="method#getMyProjects#0;class#WorkerServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/interfaces/WorkerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1433,54 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.3.RELEASE/spring-security-core-5.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/entities/BusinessPartner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/services/classes/BusinessPartnerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityForBusiness.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/services/clasess/WorkerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="107" column="42" lean-forward="false" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.3.RELEASE/spring-security-config-5.0.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="165" column="86" lean-forward="false" selection-start-line="165" selection-start-column="86" selection-end-line="165" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/config/WebSecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1489,141 +1216,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/jobs/models/JobBindingModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/admin/services/clasess/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/homeController/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/project-manager-list-projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="51" column="120" lean-forward="true" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/loged-in-business-fragments/white-navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/controllers/WorkerHomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/workers/models/WorkerRegisterBindingModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projectManager/controllers/ProjectManagerHomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="140" column="5" lean-forward="true" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/interfaces/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/service/clases/ProjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/projects/controllers/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessHomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/work/areas/businesPartners/controllers/BusinessAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/business-my-apps.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="46" column="116" lean-forward="false" selection-start-line="46" selection-start-column="116" selection-end-line="46" selection-end-column="116" />
+        <state relative-caret-position="-528">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
