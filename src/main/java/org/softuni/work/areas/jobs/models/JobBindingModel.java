@@ -7,13 +7,13 @@ import org.softuni.work.areas.workers.entities.Worker;
 import java.util.List;
 
 public class JobBindingModel {
-    @NotEmpty(message = "FirstName cannot be null!")
+    @NotEmpty(message = "The name of the Job cannot be null!")
     private String name;
 
-    @NotEmpty(message = "FirstName cannot be null!")
+    @NotEmpty(message = "Description cannot be null!")
     private String description;
 
-    @NotEmpty(message = "FirstName cannot be null!")
+    @NotEmpty(message = "Requirements cannot be null!")
     private String requirements;
 
     private boolean available;

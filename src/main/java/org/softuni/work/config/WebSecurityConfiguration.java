@@ -56,7 +56,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .passwordParameter("password")
                 .usernameParameter("email")
                 .defaultSuccessUrl("/career-home-for-noobs")
-                .failureUrl("/career-login.html?error=true")
+                .failureUrl("/career-error")
                 .and()
                 .userDetailsService(this.userDetailsService);
 
